@@ -34,20 +34,24 @@ export default function Page() {
           {/* Add Hero Images Here */}
             <Image
           src="/hero-desktop.png"
+          layout="intrinsic"
           width={1000}
           height={760}
           className="hidden md:block"
           alt="Screenshots of the dashboard project showing desktop version"
-          priority
+      
         />
             <Image
           src="/hero-mobile.png"
+          layout="intrinsic"
           width={560}
           height={620}
           className="block md:hidden"
           alt="Screenshots of the dashboard project showing desktop version"
-          priority
+       
         />
+
+        
         </div>
       </div>
     </main>
